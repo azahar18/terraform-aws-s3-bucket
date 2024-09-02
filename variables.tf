@@ -85,7 +85,7 @@ variable "attach_deny_unencrypted_object_uploads" {
 variable "bucket" {
   description = "(Optional, Forces new resource) The name of the bucket. If omitted, Terraform will assign a random, unique name."
   type        = string
-  default     = null
+  default     = "az-s3-bucket-v1"
 }
 
 variable "bucket_prefix" {
